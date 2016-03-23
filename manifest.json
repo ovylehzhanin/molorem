@@ -12,7 +12,7 @@
   },
 
   "browser_action": {
-    "default_title": "Открыть переводчик",
+    "default_title": "Genrate lorem",
     "default_icon": "64x64.png",
     "default_popup": "popup.html"
   }

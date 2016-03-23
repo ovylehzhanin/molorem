@@ -60,9 +60,24 @@ html, body {
 
 .main textarea {
   width: 100%;
+  resize: none;
   padding: 0.5em 1em;
 }
 
 .main button {
   box-shadow: 0 0 2px 0 rgba(0,0,0,0.7);
+}
+
+/* Textarea scroll-bar styles */
+textarea::-webkit-scrollbar {
+  width: 0.2em;
+}
+
+textarea::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background: #929292;
+    border-radius: 2px;
 }
