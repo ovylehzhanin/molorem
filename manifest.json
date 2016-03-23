@@ -12,7 +12,7 @@
   },
 
   "browser_action": {
-    "default_title": "Genrate lorem",
+    "default_title": "Generate lorem",
     "default_icon": "64x64.png",
     "default_popup": "popup.html"
   }

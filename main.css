@@ -13,9 +13,6 @@ html, body {
   font-size: 1em;
   line-height: normal;
   background: #ddd;
-  /*
-   url('creampaper.png') repeat 0 0
-  */
 }
 
 .main *:not(h1) {
@@ -62,6 +59,7 @@ html, body {
   width: 100%;
   resize: none;
   padding: 0.5em 1em;
+  background: url('creampaper.png') repeat 0 0;
 }
 
 .main button {
