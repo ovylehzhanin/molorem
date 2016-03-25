@@ -12,7 +12,11 @@ html, body {
   font-family: "Montserrat", sans-serif;
   font-size: 1em;
   line-height: normal;
-  background: #ddd;
+  background-image:
+    linear-gradient(
+      #ddd,
+      #bbb
+      );
 }
 
 .main *:not(h1) {
