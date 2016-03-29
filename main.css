@@ -3,26 +3,14 @@ html, body {
   padding: 0;
   font-size: 14px;
 }
-
-.main {
-  width: 250px;
-  margin: 0 auto;
-  padding: 0.2em 1em;
-  border-radius: 3px;
+/* Common styles */
+.main,
+.main textarea,
+.main input[type="text"] {
   font-family: "Montserrat", sans-serif;
   font-size: 1em;
-  line-height: normal;
-  background-image:
-    linear-gradient(
-      #ddd,
-      #bbb
-      );
-}
-
-.main *:not(h1) {
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
+  line-height: 1.2;
+  border-radius: 3px;
 }
 
 .main h1,
@@ -31,55 +19,53 @@ html, body {
 }
 
 .main textarea,
-.main input[type="text"],
-.main button {
-  margin: 0 auto 0.5em;
+.main input[type="text"]{
   border: none;
   outline: none;
+  margin: 0 auto 0.5em;
   box-sizing: border-box;
-  border-radius: inherit;
-}
-
-.main textarea,
-.main input[type="text"] {
   box-shadow:
     inset 0 1px 5px rgba(0, 0, 0, 0.6),
     0 1px 0 rgba(255, 255, 255, 0.6);
 }
-
-.main input[type="text"],
-.main button {
-  display: block;
-  padding: 0.5em 1em;
-  width: 30%;
+/* <-- end --> */
+.main {
+  width: 250px;
+  margin: 0 auto;
+  padding: 0.2em 1em;
+  background-image:
+    linear-gradient(
+      #ddd,
+      #bbb);
 }
 
 .main h1 {
-  font-size: 1.5em;
   margin: 0 auto 0.3em;
+  font-size: 1.5em;
 }
 
 .main textarea {
   width: 100%;
-  resize: none;
   padding: 0.5em 1em;
+  resize: none;
   background: url('creampaper.png') repeat 0 0;
 }
 
-.main button {
-  box-shadow: 0 0 2px 0 rgba(0,0,0,0.7);
+.main input[type="text"] {
+  display: block;
+  padding: 0.5em 1em;
+  width: 30%;
 }
-
 /* Textarea scroll-bar styles */
 textarea::-webkit-scrollbar {
   width: 0.2em;
 }
 
 textarea::-webkit-scrollbar-track {
-    background: transparent;
+  background: transparent;
 }
 
 textarea::-webkit-scrollbar-thumb {
-    background: #929292;
-    border-radius: 2px;
+  background: #929292;
+  border-radius: 2px;
 }
