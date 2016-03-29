@@ -41,11 +41,7 @@ window.onload = function() {
 
     if ( num > LOREM_DATA.length ) {
 
-      for (var i = 0; i < parseInt(num/LOREM_DATA.length); i++) {
-        result += LOREM_DATA;
-      }
-
-      result += LOREM_DATA.slice(0, num%LOREM_DATA.length);
+      result += LOREM_DATA.repeat(parseInt(num/LOREM_DATA.length)) + LOREM_DATA.slice(0, num%LOREM_DATA.length);
 
     } else {
 
